@@ -1,0 +1,12 @@
+h1 {
+	color: red;
+}
+div {
+	color: #FF7F50;
+}
+p {
+	color: rgb(200,25,12);
+}
+li {
+	color: rgba(255, 0, 0, .5);
+}
