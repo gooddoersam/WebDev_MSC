@@ -1,0 +1,18 @@
+@font-face {
+	src: url(../font/Montserrat-Medium.ttf);
+	font-family: 'Montserrat';
+}
+.heading h1 {
+	font-size: 50px
+	font-weight: normal;
+	font-style: italic;
+	font-family: 'Montserrat';
+	
+}
+.paragraph p {
+	font-family: 'Montserrat';
+}
+
+.paragraphTwo p {
+	 font-family: 'Montserrat';
+}

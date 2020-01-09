@@ -1,0 +1,23 @@
+.header {
+	position: absolute;
+	width: 1440px;
+	height: 200px;
+	top: 108px
+	left: 140px;
+	background: blue;
+}
+
+.heading h1 {
+	text-align: center;
+	font-size: 70px;
+	font-weight: normal;
+	color: white;
+	font-family: 'Kreon', serif;
+}
+
+.image-container {
+	background-size: cover;
+	;
+
+
+}
