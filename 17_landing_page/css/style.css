@@ -1,23 +1,91 @@
+.page {
+	position: absolute;
+	width: 1440px;
+	height: 2200px;
+
+}
+
+
 .header {
 	position: absolute;
 	width: 1440px;
 	height: 200px;
-	top: 108px
-	left: 140px;
+	top: 0px
+	left: 0px;
 	background: blue;
 }
 
 .heading h1 {
 	text-align: center;
 	font-size: 70px;
-	font-weight: normal;
+	font-weight: medium;
 	color: white;
-	font-family: 'Kreon', serif;
+	font-family: 'Ubuntu', sans-serif;
 }
 
-.image-container {
-	background-size: cover;
-	;
-
-
+.content-container {
+	position: absolute;
+	left: 0px;
+	top: 200px;
+	background: cover;	
 }
+
+.border {
+	position: absolute;
+	width: 1440px;
+	height: 100px;
+	left: 0px;
+	top: 1080px;
+ 	background: #0000ffbf;
+
+ }
+
+.description {
+	position: absolute;
+	width: 984px;
+	left: 550px;
+	top: 1090px;
+	font-size: 25px;
+	font-weight: normal;
+	letter-spacing: 4px;
+	align-items: center;
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.text {
+	position: absolute;
+	width: 1350px;
+	height: 700px;
+	left: 80px;
+	top: 1200px;
+
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 50px;
+	font-weight: regular 400;
+
+	color: black;
+}
+
+.footer-container {
+	position: absolute;
+	width: 1440px;
+	height: 200px;
+	left: 0px;
+	top: 1970px;
+
+	background: #0000ff80;
+}
+
+.logo {
+	position: absolute;
+	left: 80px;
+	top: 2200px;
+	width: 191px;
+	height: 46px;
+
+	background: #ffffff;
+}
+
+
+
