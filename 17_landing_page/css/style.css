@@ -10,7 +10,7 @@
 	position: absolute;
 	width: 1440px;
 	height: 200px;
-	top: 0px
+	top: 0px;
 	left: 0px;
 	background: blue;
 }
@@ -67,8 +67,7 @@
 	color: black;
 }
 
-.footer-container {
-	position: absolute;
+.footer {
 	width: 1440px;
 	height: 200px;
 	left: 0px;
@@ -78,7 +77,6 @@
 }
 
 .logo {
-	position: absolute;
 	left: 80px;
 	top: 2200px;
 	width: 191px;
