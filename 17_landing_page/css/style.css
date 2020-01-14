@@ -54,14 +54,23 @@
 .footer {
 	width: 1440px;
 	height: 200px;
-
+	position: relative;
 	background: #0000ff80;
 }
 
 .logo {
 	width: 191px;
 	height: 46px;
+	position: absolute;
+	top: 80px;
+	left: 50px;
 }
 
+.logo2 {
+	height: 10px;
+	position: absolute;
+	top: 55px;
+	right: 80px;
+}
 
 
