@@ -1,0 +1,24 @@
+@import url(reset.css);
+
+.header {
+	position: absolute;
+	width: 1440px;
+	height: 60px;
+	left: 0px;
+	top: 0px;
+	background: red;
+}
+
+.heading {
+	position: absolute;
+	width: 820px;
+	height: 20px;
+	left: 20px;
+	top: 20px;
+
+	font-family: Helvetica;
+	font-size: 20px;
+	line-height: 23px;
+	align-items: center;
+	color: white;
+}

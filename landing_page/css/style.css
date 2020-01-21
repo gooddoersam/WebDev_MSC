@@ -1,7 +1,8 @@
+@import url(reset.css);
+
 .page {
 	width: 1440px;
-	height: 2200px;
-
+	height: 1700px;
 }
 
 
@@ -28,8 +29,7 @@
 	width: 1440px;
 	height: 100px;
  	background: #0000ffbf;
-
- }
+}
 
 .description {
 	width: 984px;
@@ -44,11 +44,10 @@
 .text {
 	width: 1350px;
 	height: 700px;
-
+	padding: 60px;
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 50px;
 	font-weight: regular 400;
-
 	color: black;
 }
 
