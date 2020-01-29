@@ -1,28 +1,17 @@
 @import url(reset.css);
 
-.page {
-	width: 1440px;
-	height: 1700px;
-}
-
-
 .header {
 	width: 1440px;
-	height: 200px;
+	height: 100px;
 	background: blue;
 }
 
-.heading h1 {
+.heading {
 	text-align: center;
-	font-size: 70px;
-	font-weight: medium;
-	line-height: 180px;
+	font-size: 50px;
+	line-height: 90px;
 	color: white;
 	font-family: 'Ubuntu', sans-serif;
-}
-
-.content-container {
-	background: cover;	
 }
 
 .border {
@@ -31,22 +20,24 @@
  	background: #0000ffbf;
 }
 
-.description {
-	width: 984px;
-	font-size: 25px;
-	font-weight: normal;
-	letter-spacing: 4px;
-	align-items: center;
-	color: white;
-	font-family: 'Ubuntu', sans-serif;
-}
-
 .text {
 	width: 1350px;
 	height: 700px;
 	padding: 60px;
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 50px;
+	line-height: 60px;
+	font-weight: regular 400;
+	color: black;
+}
+
+.links {
+	width: 1350px;
+	height: 700px;
+	padding: 60px;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 30px;
+	line-height: 60px;
 	font-weight: regular 400;
 	color: black;
 }
@@ -57,20 +48,4 @@
 	position: relative;
 	background: #0000ff80;
 }
-
-.logo {
-	width: 191px;
-	height: 46px;
-	position: absolute;
-	top: 80px;
-	left: 50px;
-}
-
-.logo2 {
-	height: 10px;
-	position: absolute;
-	top: 55px;
-	right: 80px;
-}
-
 
