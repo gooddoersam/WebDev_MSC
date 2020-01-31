@@ -18,7 +18,7 @@
 .image {
 	width: 1440px;
 	height: 1080px;
-	background-image: url(../img/Sam);
+	background-image: url(../img/Sam.jpg);
 }
 
 .text {
@@ -44,5 +44,13 @@
 	width: 1440px;
 	height: 200px;
 	background: #0000ff80;
+}
+
+.logo1 {
+	width: 50px;
+	background-image: url(../img/logo);
+	z-index: 2;
+	position: absolute;
+	top: 2200px
 }
 
