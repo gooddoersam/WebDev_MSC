@@ -48,9 +48,9 @@
 
 .logo1 {
 	width: 50px;
-	background-image: url(../img/logo);
+	background-image: url(../img/logo.png);
 	z-index: 2;
 	position: absolute;
-	top: 2200px
+	top: 2000px
 }
 
