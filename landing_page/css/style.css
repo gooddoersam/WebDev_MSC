@@ -30,11 +30,11 @@
 	color: black;
 }
 
-.links {
+.links a{
 	width: 1350px;
 	padding: 90px 100px;
 	font-family: 'Helvetica';
-	font-size: 40px;
+	font-size: 30px;
 	text-decoration: none;
 	line-height: 70px;
 	color: black;
