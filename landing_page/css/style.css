@@ -1,7 +1,6 @@
 @import url(reset.css);
 
 .header {
-	width: 1440px;
 	height: 200px;
 	background: blue;
 }
@@ -17,23 +16,20 @@
 }
 
 .image {
-	width: 1440px;
 	height: 1080px;
 	background-image: url(../img/Sam.jpg);
 }
 
 .text {
-	width: 1250px;
 	padding: 70px 100px 70px;
 	font-family: 'Helvetica';
 	font-size: 35px;
-	line-height: 60px;
 	color: black;
 }
 
 .links a{
 	display: inline-block;
-	margin: 0px 70px;
+	padding: 70px;
 	font-family: 'Helvetica';
 	font-size: 35px;
 	text-decoration: none;
@@ -41,7 +37,6 @@
 }
 
 footer {
-	width: 1440px;
 	height: 200px;
 	background: #0000ff80;
 	overflow: hidden;
@@ -51,5 +46,6 @@ footer {
 	width: 205px;
 	height: 46px;
 	margin: 0px 50px;
+	padding: 80px 70px;
 }
 
