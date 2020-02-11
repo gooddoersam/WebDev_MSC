@@ -1,13 +1,14 @@
+@import url(reset.css);
 
 .header {
 	width: 1440px;
 	height: 200px;
 	background: blue;
-	top: 1px;
 }
 
 .heading {
-	margin: 50px 100px;
+	margin: 0px 100px;
+	line-height: 200px;
 	font-size: 70px;
 	color: white;
 	font-family: 'Helvetica';
@@ -32,7 +33,7 @@
 
 .links a{
 	display: inline-block;
-	margin: 20px 70px;
+	margin: 0px 70px;
 	font-family: 'Helvetica';
 	font-size: 35px;
 	text-decoration: none;
@@ -43,11 +44,12 @@ footer {
 	width: 1440px;
 	height: 200px;
 	background: #0000ff80;
+	overflow: hidden;
 }
 
 .logo {
 	width: 205px;
 	height: 46px;
-	margin: 90px 50px;
+	margin: 0px 50px;
 }
 
