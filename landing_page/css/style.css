@@ -21,7 +21,7 @@
 }
 
 .text {
-	padding: 70px 100px 70px;
+	padding: 70px 100px 30px;
 	font-family: 'Helvetica';
 	font-size: 35px;
 	color: black;
@@ -29,7 +29,7 @@
 
 .links a{
 	display: inline-block;
-	padding: 70px;
+	padding: 10px 100px;
 	font-family: 'Helvetica';
 	font-size: 35px;
 	text-decoration: none;
@@ -40,6 +40,7 @@ footer {
 	height: 200px;
 	background: #0000ff80;
 	overflow: hidden;
+	margin-top: 70px;
 }
 
 .logo {
