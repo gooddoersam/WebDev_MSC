@@ -3,13 +3,14 @@
 	width: 1440px;
 	height: 200px;
 	background: blue;
+	top: 1px;
 }
 
 .heading {
+	margin: 50px 100px;
 	font-size: 70px;
 	color: white;
 	font-family: 'Helvetica';
-	position: absolute;
 	left: 100px;
 	top: 60px;
 }
@@ -22,7 +23,7 @@
 
 .text {
 	width: 1250px;
-	padding: 70px 100px 5px;
+	padding: 70px 100px 70px;
 	font-family: 'Helvetica';
 	font-size: 35px;
 	line-height: 60px;
@@ -30,11 +31,11 @@
 }
 
 .links a{
-	margin: 200px 100px;
+	display: inline-block;
+	margin: 20px 70px;
 	font-family: 'Helvetica';
-	font-size: 30px;
+	font-size: 35px;
 	text-decoration: none;
-	line-height: 70px;
 	color: blue;
 }
 
@@ -45,10 +46,8 @@ footer {
 }
 
 .logo {
-	width: 205px 46px;
-	background-image: url(../img/logo.png);
-	z-index: 2;
-	position: absolute;
-	top: 2000px
+	width: 205px;
+	height: 46px;
+	margin: 90px 50px;
 }
 
