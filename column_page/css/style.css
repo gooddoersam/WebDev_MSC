@@ -14,7 +14,7 @@ h1 {
 	padding-left: 30px;
 }
 
-div {
+section {
 	width: 400px;
 	height: 800px;
 	display: inline-block;
@@ -46,6 +46,8 @@ p {
 	line-height: 30px;
 	color: white;
 	display: inline-block;
+	vertical-align: top;
+
 }
 
 .one {
@@ -54,4 +56,6 @@ p {
 
 .two {
 	text-align: right;
+	margin: 15px 30px;
+	float: right;
 }
