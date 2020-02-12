@@ -5,7 +5,7 @@ header {
 	background-color: red;
 }
 
-.heading {
+h1 {
 	font-family: helvetica;
 	font-weight: bold;
 	font-size: 20px;
@@ -14,7 +14,7 @@ header {
 	padding-left: 30px;
 }
 
-.border {
+div {
 	width: 400px;
 	height: 800px;
 	display: inline-block;
@@ -22,4 +22,36 @@ header {
 	border: 5px solid #E5E000;
 	box-sizing: border-box;
 	border-radius: 30px;
+	margin: 50px 35px;
+
+	font-size: 20px;
+	line-height: 23px;
+	padding: 50px;
+}
+
+h2 {
+	font-family: helvetica;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+footer {
+	height: 60px;
+	background-color: red;
+}
+
+p {
+	font-family: helvetica;
+	font-size: 20px;
+	line-height: 30px;
+	color: white;
+	display: inline-block;
+}
+
+.one {
+	margin: 15px 30px;
+}
+
+.two {
+	text-align: right;
 }
