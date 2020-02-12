@@ -1,0 +1,25 @@
+@import url(reset.css);
+
+header {
+	height: 60px;
+	background-color: red;
+}
+
+.heading {
+	font-family: helvetica;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 60px;
+	color: white;
+	padding-left: 30px;
+}
+
+.border {
+	width: 400px;
+	height: 800px;
+	display: inline-block;
+	vertical-align: top;
+	border: 5px solid #E5E000;
+	box-sizing: border-box;
+	border-radius: 30px;
+}
