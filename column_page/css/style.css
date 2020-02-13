@@ -14,7 +14,8 @@ h1 {
 	padding-left: 30px;
 }
 
-div {
+main {
+	width: 1400px;
 	margin: auto;
 }
 
