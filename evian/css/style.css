@@ -5,21 +5,23 @@ header {
 	height: 140px;
 	background-color: white;
 	display: flex;
-	justify-content: flex-end;
 }
 
 header p {
 	font-family: helvetica;
 	font-size: 50px;
 	color: #E50043;
-	margin: 50px 100px;
+	padding: 40px 100px;	
 }
 
-header a {
+a {
 	font-family: helvetica;
 	font-size: 50px;
 	color: #E50043;
-	margin: 50px;
+	padding: 50px;
+	display: flex;
+	
+
 }
 
 .photo {
