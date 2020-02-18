@@ -64,11 +64,21 @@ h1 {
 }
 
 section {
+	text-align: center;
+}
+
+.images {
 	display: flex;
+	justify-content: center;
 }
 
 section p {
-	display: inline;
+	font-family: helvetica;
+	font-size: 25px;
+	line-height: 29px;
+	align-items: center;
+	padding: 40px 20px;
+	display: inline-block;
 }
 
 
