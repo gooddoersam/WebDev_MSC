@@ -5,6 +5,8 @@ header {
 	height: 140px;
 	background-color: white;
 	display: flex;
+	justify-content: space-between;	
+	align-items: center;
 }
 
 header p {
@@ -12,31 +14,28 @@ header p {
 	font-size: 50px;
 	color: #E50043;
 	padding: 40px 100px;
-	justify-content: space-between;	
 }
 
 ul {
-	font-family: helvetica;
-	font-size: 50px;
-	color: #E50043;
-	padding: 50px;
 	display: flex;
+	padding-right:100px;
 }
 
-ul li a{
+a {
 	font-family: helvetica;
 	font-size: 50px;
 	color: #E50043;
-	text-decoration: none;
-	justify-content: flex-end;
-
+	text-decoration: none; 
+	padding: 0 30px;
 }
 
 .photo {
 	color: white;
 	height: 950px;
 	display: flex;
-	background-image: (../img/evian_origins_logo.png)
+	background-image: url(../img/evian_origins_logo.png);
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 
 h1 {
@@ -46,23 +45,31 @@ h1 {
 	margin: auto;
 }
 
+
 .text-one {
 	width: 1040px;
 	height: 280px;
 	border: 3px solid #F8BFC7;
 	box-sizing: border-box;
 	border-radius: 20px;
+	display: flex;
+	flex: wrap;
+	align-items: center;
+	margin: 150px auto;
+	padding: 0px 20px 10px;
 
 	font-family: helvetica;
 	font-size: 25px;
 	line-height: 29px;
-	display: flex;
-	align-items: center;
 }
 
+section {
+	display: flex;
+}
 
-
-
+section p {
+	display: inline;
+}
 
 
 
