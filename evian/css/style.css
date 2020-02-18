@@ -11,7 +11,8 @@ header p {
 	font-family: helvetica;
 	font-size: 50px;
 	color: #E50043;
-	padding: 40px 100px;	
+	padding: 40px 100px;
+	justify-content: space-between;	
 }
 
 ul {
@@ -35,6 +36,7 @@ ul li a{
 	color: white;
 	height: 950px;
 	display: flex;
+	background-image: (../img/evian_origins_logo.png)
 }
 
 h1 {
