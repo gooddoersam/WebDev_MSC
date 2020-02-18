@@ -14,13 +14,20 @@ header p {
 	padding: 40px 100px;	
 }
 
-a {
+ul {
 	font-family: helvetica;
 	font-size: 50px;
 	color: #E50043;
 	padding: 50px;
 	display: flex;
-	
+}
+
+ul li a{
+	font-family: helvetica;
+	font-size: 50px;
+	color: #E50043;
+	text-decoration: none;
+	justify-content: flex-end;
 
 }
 
