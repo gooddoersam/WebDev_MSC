@@ -52,11 +52,9 @@ h1 {
 	border: 3px solid #F8BFC7;
 	box-sizing: border-box;
 	border-radius: 20px;
-	display: flex;
-	flex: wrap;
 	align-items: center;
 	margin: 150px auto;
-	padding: 0px 20px 10px;
+	padding: 20px;
 
 	font-family: helvetica;
 	font-size: 25px;
@@ -72,15 +70,36 @@ section {
 	justify-content: center;
 }
 
+img {
+	padding: 0px 30px;
+
+}
+
 section p {
 	font-family: helvetica;
 	font-size: 25px;
 	line-height: 29px;
 	align-items: center;
-	padding: 40px 20px;
+	padding: 40px 50px;
 	display: inline-block;
 }
 
+.section-two p {
+	width: 1040px;
+	height: 280px;
+	border: 3px solid #F8BFC7;
+	box-sizing: border-box;
+	border-radius: 20px;
+	align-items: center;
+	margin: 150px auto;
+	padding: 20px;
+
+	font-family: helvetica;
+	font-size: 25px;
+	line-height: 29px;
+	text-align: left;
+	
+}
 
 
 
