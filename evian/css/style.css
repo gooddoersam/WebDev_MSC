@@ -83,7 +83,7 @@ section p {
 	display: inline-block;
 }
 
-.section-two p {
+.section-two {
 	width: 1040px;
 	height: 280px;
 	border: 3px solid #F8BFC7;
@@ -92,7 +92,9 @@ section p {
 	align-items: center;
 	margin: 30px auto;
 	padding-top: 40px;
+}
 
+.section-two p {
 	font-family: helvetica;
 	font-size: 25px;
 	line-height: 29px;
@@ -100,10 +102,11 @@ section p {
 }
 
 .bottle {
-	background-image: url(../img/glass.png)
-	height: 50px;
+	background-image: url(../img/glass.png);
+	height: 220px;
 	background-size: contain;
 	background-repeat: no-repeat;
+	padding-left: 90px;
 }
 
 
