@@ -91,7 +91,7 @@ section p {
 	border-radius: 20px;
 	align-items: center;
 	margin: 30px auto;
-	padding-top: 40px;
+	padding-top: 25px;
 }
 
 .section-two p {
@@ -106,7 +106,7 @@ section p {
 	height: 220px;
 	background-size: contain;
 	background-repeat: no-repeat;
-	padding-left: 90px;
+	margin: 0px 70px;
 }
 
 
