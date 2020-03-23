@@ -1,0 +1,77 @@
+@import url(reset.css);
+
+header {
+	background-color: orange;
+	height: 130px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+h1 {
+	font-family: helvetica;
+	font-size: 60px;
+	color: white;
+}
+
+section {
+	width: 80%;
+	margin: auto;
+	min-height: 500px;
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+}
+
+.column {
+	width: calc((100% - 90px)/3);
+	margin: 60px 0px 50px;
+	background: #f7f5f2;
+}
+
+.img-one {
+	background-image: url(https://images.unsplash.com/photo-1551879400-111a9087cd86?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80);
+	background-size: cover;
+	background-position: center;
+	height: 300px;
+	padding-top: 100%;
+}
+
+.img-two {
+	background-image: url(https://images.unsplash.com/photo-1560180474-e8563fd75bab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80);
+	background-size: cover;
+	background-position: center;
+	height: 300px;
+	padding-top: 100%;
+}
+
+.img-three {
+	background-image: url(https://images.unsplash.com/photo-1565661834013-d196ca46e14e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80);
+	background-size: cover;
+	background-position: center;
+	height: 300px;
+	padding-top: 100%;
+}
+
+h2 {
+	font-family: helvetica;
+	font-size: 17px;
+	color: grey;
+}
+
+.column p {
+	padding: 20px;
+}
+
+footer {
+	background-color: orange;
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: helvetica;
+	font-size: 45px;
+	color: white;
+}
+
+

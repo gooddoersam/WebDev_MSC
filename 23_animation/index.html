@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Document</title>
+<style>
+
+@keyframes moving {
+
+from {
+	top: 0;
+	left: 0;
+	opacity: 1;
+}
+
+to {
+	top: 600px;
+	left: 700px;
+	opacity: 0;
+}
+}
+
+.yo {
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	background-color: blue;
+	position: relative;
+	animation: moving 5s linear infinite alternate;
+}
+
+</style>
+</head>
+<body>
+<div class="yo">
+</div>
+</body>
+</html>
