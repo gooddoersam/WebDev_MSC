@@ -1,0 +1,53 @@
+@import url(reset.css);
+
+header, footer {
+	height: 80px;
+	background: blue;
+	font-family: helvetica;
+	font-size: 25px;
+	color: white;
+	padding-top: 50px;
+	padding-left: 50px;
+}
+
+.section {
+	width: 85%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	margin: 100px auto;
+}
+
+section div {
+	width: 40%;
+	border: 5px solid black;
+	padding: 50px;
+	margin-top: 20px;
+	font-family: helvetica;
+	font-weight: bold;
+	font-size: 50px;
+	line-height: 1.15em;
+	text-align: center;
+}
+
+@media screen and (max-width: 1334px) {
+	.section {
+		display: flex;
+		width: 85%;
+		margin: 100px auto;
+	}
+
+	section div {
+	width: 80%;
+	border: 5px solid black;
+	padding: 50px;
+	margin-top: 20px;
+	font-family: helvetica;
+	font-weight: bold;
+	font-size: 50px;
+	line-height: 1.15em;
+	text-align: center;
+}
+}
+
